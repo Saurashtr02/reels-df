@@ -1,0 +1,63 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8rem;
+    text-align: center;
+    /* border: 1px solid black; */
+    
+}
+
+.login-card{
+    border: 1px solid black;
+    width: 20rem;
+    /* height: 25rem; */
+    padding: 2rem;
+    background-color: white;
+    
+}
+
+.bottom-card{
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 20rem;
+    margin-bottom: 2rem;
+    background-color: white;
+}
+
+.carobg{
+    background: url("../../assets/carouselbh.png");
+    height: 634px;
+    width: 468px;
+    /* margin-right: 32px; */
+    /* margin-bottom: 12px; */
+    background-size: cover;
+    position: relative;
+}
+
+.caro{
+    position: absolute;
+    top: 28px;
+    right:60px;
+    width: 250px;
+    height: 538px;
+   
+}
+
+@media only screen and (max-width:500px) {
+    .login-card{
+        width: 100%;
+    }
+    .bottom-card{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .carobg{
+        display: none;
+    }
+}
+
